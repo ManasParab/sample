@@ -27,7 +27,6 @@ body {
     width: 100%;
     position: sticky;
     top: 0;
-    ;
 }
 
 
@@ -159,12 +158,12 @@ body {
 /* Apply the animation to the element */
 .container {
     /* animation: slide-in 2s ease-in; */
-    margin-top: 46vw;
-    margin-left: 5vw;
+    margin-top: 48vw;
+    margin-left: 8vw;
     width: 40vw;
     display: block;
     opacity: 1;
-    font-size: 140%;
+    font-size: 120%;
     color: #203555;
 }
 
@@ -176,16 +175,62 @@ body {
     font-size: 4vw;
 }
 
-main {
+/* main {
     margin-top: 500px;
-}
+} */
 
 /*Indian Map Image ------------------------------------------------------------------------*/
 
 .map-img {
     animation: slide-in 2s ease-in;
-    margin-top: -40vw;
-    margin-right: 2vw;
+    margin-top: -30vw;
+    margin-right: 4vw;
     float: right;
-    width: 40vw;
+    width: 32vw;
+}
+
+#about {
+    margin-top: 20vw;
+    /* scroll-snap-align: start; */
+}
+
+section {
+    height: 500px;
+    scroll-snap-align: start;
+}
+
+#us {
+    color: #0071BC;
+}
+
+.benefits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 110px;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.benefit-table {
+    margin-top: 16vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.benefit-heading {
+    padding: 20px;
+}
+
+#benefit-head {
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
