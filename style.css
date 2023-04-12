@@ -132,13 +132,15 @@ body {
 .um-img {
     margin-top: 6vw;
     float: left;
-    width: 48.5vw;
+    width: 50vw;
 }
 
+
+
 .tax-img {
-    margin-top: 4vw;
+    margin-top: 6vw;
     float: right;
-    width: 50vw;
+    width: 48vw;
 }
 
 /*About Us information --------------------------------------------------------------------*/
@@ -233,4 +235,31 @@ table {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.service-table {
+    margin-top: 16vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#service-head {
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rate-head {
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services {
+    padding-left: 40vw;
 }
