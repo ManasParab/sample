@@ -857,7 +857,6 @@ body {
         text-transform: uppercase;
     }
 
-
     .top-nav-ul {
         list-style: none;
         display: flex;
@@ -990,8 +989,6 @@ body {
         float: right;
         width: 32vw;
     }
-
-
 
     .benefits {
         display: block;
@@ -1135,7 +1132,6 @@ body {
 
     }
 
-
     .contact-details {
         font-weight: bold;
         font-size: 20px;
@@ -1175,6 +1171,4 @@ body {
     .top:hover {
         background-color: #555;
     }
-
-
 }
