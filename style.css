@@ -1,1152 +1,255 @@
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-
-    /* overflow: hidden; */
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 767px) {
-    /* Your styles here */
-
-    /* Reset the default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* Set the body background color */
-    body {
-        background-color: #fff;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    #TF {
-        /* Taxo File top text */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 1000;
-        font-size: 3vw;
-        padding: 2vw;
-        padding-left: 2vw;
-    }
-
-    /* TOP Navigation Bar ---------------------------------------------------------------------*/
-
-    #nav-stick {
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-
-
-    .nav1 {
-        width: 100%;
-        background-color: #0071BC;
-        height: 40px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .top-nav-btns {
-        color: white;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-btns:hover {
-        color: #203555;
-        text-decoration: none;
-        background-color: white;
-        padding: 6px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-
-    .top-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .top-nav-li {
-        margin: 0 20px;
-    }
-
-    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
-
-    .nav2 {
-        width: 100%;
-        background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .btm-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .btm-nav-li {
-        margin: 0 20px;
-    }
-
-    .btm-nav-btns {
-        color: #203555;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    .btm-nav-btns:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #203555;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    /*NAVBAR Logo -----------------------------------------------------------------------------*/
-
-    .logo {
-        margin-top: 0.7vw;
-        margin-left: -55vw;
-        width: 18vw;
-        height: 3.6vw;
-    }
-
-    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
-    .um-img {
-        padding-top: 6vw;
-        float: left;
-        width: 50vw;
-    }
-
-
-
-    .tax-img {
-        margin-top: 6vw;
-        float: right;
-        width: 48vw;
-    }
-
-    /*About Us information --------------------------------------------------------------------*/
-
-    /* @keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(200%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(00%);
-    }
-} */
-
-    /* Apply the animation to the element */
-    .container {
-        /* animation: slide-in 2s ease-in; */
-        margin-top: 34vw;
-        margin-left: 8vw;
-        width: 40vw;
-        display: block;
-        opacity: 1;
-        font-size: 120%;
-        color: #203555;
-    }
-
-    #abt-us-details {
-        margin-top: 1vw;
-    }
-
-    #abt-us {
-        font-size: 4vw;
-        padding-top: 12vw;
-    }
-
-    #us {
-        color: #0071BC;
-    }
-
-    /* main {
-    margin-top: 500px;
-} */
-
-    /*Indian Map Image ------------------------------------------------------------------------*/
-
-    .map-img {
-        animation: slide-in 2s ease-in;
-        margin-top: -30vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
-    }
-
-
-
-    .benefits {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 110px;
-    }
-
-
-    #benefit-head {
-        padding-top: 10vw;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid-container {
-        padding-top: 2vw;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 5%;
-        place-items: center;
-        justify-items: center;
-    }
-
-    .grid-item {
-        width: 40%;
-        /* background-color: #f2f2f2; */
-        /* border: 1px solid #ccc; */
-        padding: 10px;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-
-    #service-head {
-        padding-top: 10vw;
-        width: 50%;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service-grid {
-        line-height: 40px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
-        justify-items: center;
-    }
-
-    #services {
-        padding-top: 3vw;
-        padding-bottom: 34vw;
-    }
-
-    .service-grid-item {
-        box-shadow: 10px 10px #0071BC;
-        background-color: #203555;
-        color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    /* Footer ---------------------------------------------------------------------------------*/
-
-    footer {
-        background-color: #203555;
-        padding: 40px 0;
-
-    }
-
-    .footer-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .contact-info,
-    .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
-        margin-bottom: 30px;
-    }
-
-    .contact-info h3,
-    .footer-nav h3 {
-        color: #0071BC;
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .contact-info ul,
-    .footer-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .contact-info a,
-    .footer-nav a {
-        text-decoration: none;
-    }
-
-    .contact-details:hover {
-        text-decoration: underline;
-    }
-
-    .contact-info li,
-    .footer-nav li {
-        margin-bottom: 10px;
-
-    }
-
-
-    .contact-details {
-        font-weight: bold;
-        font-size: 14px;
-        color: #fff;
-        padding-bottom: 14px;
-    }
-
-    .grid-item-social {
-
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
-    }
-
-    .socials {
-        margin-left: -1.3vw;
-        width: 30%;
-    }
-
-    .top {
-        width: 100%;
-        position: sticky;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: none;
-    }
-
-    .top #top {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .top:hover {
-        background-color: #555;
-    }
-
-
-
-}
-
-@media only screen and (min-width: 767px) and (max-width: 992px) {
-    /* Your styles here */
-
-    /* Reset the default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* Set the body background color */
-    body {
-        background-color: #fff;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    #TF {
-        /* Taxo File top text */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 1000;
-        font-size: 3vw;
-        padding: 2vw;
-        padding-left: 2vw;
-    }
-
-    /* TOP Navigation Bar ---------------------------------------------------------------------*/
-
-    #nav-stick {
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-
-
-    .nav1 {
-        width: 100%;
-        background-color: #0071BC;
-        height: 40px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .top-nav-btns {
-        color: white;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-btns:hover {
-        color: #203555;
-        text-decoration: none;
-        background-color: white;
-        padding: 6px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-
-    .top-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .top-nav-li {
-        margin: 0 20px;
-    }
-
-    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
-
-    .nav2 {
-        width: 100%;
-        background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .btm-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .btm-nav-li {
-        margin: 0 20px;
-    }
-
-    .btm-nav-btns {
-        color: #203555;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    .btm-nav-btns:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #203555;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    /*NAVBAR Logo -----------------------------------------------------------------------------*/
-
-    .logo {
-        margin-top: 0.7vw;
-        margin-left: -55vw;
-        width: 18vw;
-        height: 3.6vw;
-    }
-
-    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
-    .um-img {
-        padding-top: 6vw;
-        float: left;
-        width: 50vw;
-    }
-
-
-
-    .tax-img {
-        margin-top: 6vw;
-        float: right;
-        width: 48vw;
-    }
-
-    /*About Us information --------------------------------------------------------------------*/
-
-    /* @keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(200%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(00%);
-    }
-} */
-
-    /* Apply the animation to the element */
-    .container {
-        /* animation: slide-in 2s ease-in; */
-        margin-top: 34vw;
-        margin-left: 8vw;
-        width: 40vw;
-        display: block;
-        opacity: 1;
-        font-size: 120%;
-        color: #203555;
-    }
-
-    #abt-us-details {
-        margin-top: 1vw;
-    }
-
-    #abt-us {
-        font-size: 4vw;
-        padding-top: 12vw;
-    }
-
-    #us {
-        color: #0071BC;
-    }
-
-    /* main {
-    margin-top: 500px;
-} */
-
-    /*Indian Map Image ------------------------------------------------------------------------*/
-
-    .map-img {
-        animation: slide-in 2s ease-in;
-        margin-top: -30vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
-    }
-
-
-
-    .benefits {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 110px;
-    }
-
-
-    #benefit-head {
-        padding-top: 10vw;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid-container {
-        padding-top: 2vw;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 5%;
-        place-items: center;
-        justify-items: center;
-    }
-
-    .grid-item {
-        width: 40%;
-        /* background-color: #f2f2f2; */
-        /* border: 1px solid #ccc; */
-        padding: 10px;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-
-    #service-head {
-        padding-top: 10vw;
-        width: 50%;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service-grid {
-        line-height: 40px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
-        justify-items: center;
-    }
-
-    #services {
-        padding-top: 3vw;
-        padding-bottom: 34vw;
-    }
-
-    .service-grid-item {
-        box-shadow: 10px 10px #0071BC;
-        background-color: #203555;
-        color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    /* Footer ---------------------------------------------------------------------------------*/
-
-    footer {
-        background-color: #203555;
-        padding: 40px 0;
-
-    }
-
-    .footer-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .contact-info,
-    .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
-        margin-bottom: 30px;
-    }
-
-    .contact-info h3,
-    .footer-nav h3 {
-        color: #0071BC;
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .contact-info ul,
-    .footer-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .contact-info a,
-    .footer-nav a {
-        text-decoration: none;
-    }
-
-    .contact-details:hover {
-        text-decoration: underline;
-    }
-
-    .contact-info li,
-    .footer-nav li {
-        margin-bottom: 10px;
-
-    }
-
-
-    .contact-details {
-        font-weight: bold;
-        font-size: 14px;
-        color: #fff;
-        padding-bottom: 14px;
-    }
-
-    .grid-item-social {
-
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
-    }
-
-    .socials {
-        margin-left: -1.3vw;
-        width: 30%;
-    }
-
-    .top {
-        width: 100%;
-        position: sticky;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: none;
-    }
-
-    .top #top {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .top:hover {
-        background-color: #555;
-    }
-
-
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) {
-    /* Your styles here */
-
-    /* Reset the default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* Set the body background color */
-    body {
-        background-color: #fff;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    #TF {
-        /* Taxo File top text */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 1000;
-        font-size: 3vw;
-        padding: 2vw;
-        padding-left: 2vw;
-    }
-
-    /* TOP Navigation Bar ---------------------------------------------------------------------*/
-
-    #nav-stick {
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-
-
-    .nav1 {
-        width: 100%;
-        background-color: #0071BC;
-        height: 40px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .top-nav-btns {
-        color: white;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-btns:hover {
-        color: #203555;
-        text-decoration: none;
-        background-color: white;
-        padding: 6px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-
-    .top-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .top-nav-li {
-        margin: 0 20px;
-    }
-
-    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
-
-    .nav2 {
-        width: 100%;
-        background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .btm-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .btm-nav-li {
-        margin: 0 20px;
-    }
-
-    .btm-nav-btns {
-        color: #203555;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    .btm-nav-btns:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #203555;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    /*NAVBAR Logo -----------------------------------------------------------------------------*/
-
-    .logo {
-        margin-top: 0.7vw;
-        margin-left: -55vw;
-        width: 18vw;
-        height: 3.6vw;
-    }
-
-    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
-    .um-img {
-        padding-top: 6vw;
-        float: left;
-        width: 50vw;
-    }
-
-
-
-    .tax-img {
-        margin-top: 6vw;
-        float: right;
-        width: 48vw;
-    }
-
-    /*About Us information --------------------------------------------------------------------*/
-
-    /* @keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(200%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(00%);
-    }
-} */
-
-    /* Apply the animation to the element */
-    .container {
-        /* animation: slide-in 2s ease-in; */
-        margin-top: 34vw;
-        margin-left: 8vw;
-        width: 40vw;
-        display: block;
-        opacity: 1;
-        font-size: 120%;
-        color: #203555;
-    }
-
-    #abt-us-details {
-        margin-top: 1vw;
-    }
-
-    #abt-us {
-        font-size: 4vw;
-        padding-top: 12vw;
-    }
-
-    #us {
-        color: #0071BC;
-    }
-
-    /* main {
-    margin-top: 500px;
-} */
-
-    /*Indian Map Image ------------------------------------------------------------------------*/
-
-    .map-img {
-        animation: slide-in 2s ease-in;
-        margin-top: -30vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
-    }
-
-
-
-    .benefits {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 110px;
-    }
-
-
-    #benefit-head {
-        padding-top: 10vw;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid-container {
-        padding-top: 2vw;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 5%;
-        place-items: center;
-        justify-items: center;
-    }
-
-    .grid-item {
-        width: 40%;
-        /* background-color: #f2f2f2; */
-        /* border: 1px solid #ccc; */
-        padding: 10px;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-
-    #service-head {
-        padding-top: 10vw;
-        width: 50%;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service-grid {
-        line-height: 40px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
-        justify-items: center;
-    }
-
-    #services {
-        padding-top: 3vw;
-        padding-bottom: 34vw;
-    }
-
-    .service-grid-item {
-        box-shadow: 10px 10px #0071BC;
-        background-color: #203555;
-        color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    /* Footer ---------------------------------------------------------------------------------*/
-
-    footer {
-        background-color: #203555;
-        padding: 40px 0;
-
-    }
-
-    .footer-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .contact-info,
-    .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
-        margin-bottom: 30px;
-    }
-
-    .contact-info h3,
-    .footer-nav h3 {
-        color: #0071BC;
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .contact-info ul,
-    .footer-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .contact-info a,
-    .footer-nav a {
-        text-decoration: none;
-    }
-
-    .contact-details:hover {
-        text-decoration: underline;
-    }
-
-    .contact-info li,
-    .footer-nav li {
-        margin-bottom: 10px;
-
-    }
-
-
-    .contact-details {
-        font-weight: bold;
-        font-size: 14px;
-        color: #fff;
-        padding-bottom: 14px;
-    }
-
-    .grid-item-social {
-
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
-    }
-
-    .socials {
-        margin-left: -1.3vw;
-        width: 30%;
-    }
-
-    .top {
-        width: 100%;
-        position: sticky;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: none;
-    }
-
-    .top #top {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .top:hover {
-        background-color: #555;
-    }
-
-
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav-stick">
+        <nav class="nav1">
+            <ul class="top-nav-ul">
+                <li class="top-nav-li"><a class="top-nav-btns" href="#">+91 Phone Number</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav2">
+            <a href="file:///C:/Users/manas/Desktop/CA%20Website/index.html"><img class="logo"
+                    src="asset/TAXoNARY Logo.png" alt="TaxoNary Logo" /></a>
+
+            <ul class="btm-nav-ul">
+                <li class="btm-nav-li"><a class="btm-nav-btns" href="#abt-us">About Us</a></li>
+                <li class="btm-nav-li"><a class="btm-nav-btns" href="#benefit-head">Benefits</a></li>
+                <li class="btm-nav-li"><a class="btm-nav-btns" href="#service-head">Services</a></li>
+                <li class="btm-nav-li"><a class="btm-nav-btns" href="#Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="clearfix"></div>
+    </div>
+
+    <img id="top" class="um-img" src="asset/Ujjwal Mishra.svg" alt="Ujjwal Mishra Image">
+    <img class="tax-img" src="asset/tax-image.svg" alt="Tax Illustration">
+
+    <main>
+        <section>
+            <div id="about">
+                <div class="container">
+                    <h2 id="abt-us">About <span id="us">Us</span></h2>
+                    <p id="abt-us-details">Our dedicated team is here to provide you with seamless tax planning, legal
+                        compliance,
+                        and cost-effective solutions for your needs. Our team consists of Chartered Accountants, Half
+                        Chartered Accountants, Lawyers, seasoned professionals, experienced teachers, Direct Selling
+                        Agents,
+                        LIC
+                        Agents, an Advisory Team, Investment Advisors, and a Technical Team with extensive
+                        qualifications
+                        and a
+                        strong client base.<br><br>Our Head, Ujwal J. K. Mishra, leads the team with his expertise and
+                        many
+                        years of
+                        experience. We understand
+                        that your business needs come first, which is why we work tirelessly to provide you with
+                        headache-free
+                        solutions at a minimum cost.<br><br>Let us take care of your financial and legal obligations so
+                        you
+                        can
+                        focus on
+                        your core business activities.<br><br>
+                        We strive to provide you with peace of mind knowing that your finances and legal compliance are
+                        being
+                        handled by a team of experts.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img class="map-img" src="asset/Map.svg" alt="Indian Map Image">
+            </div>
+        </section>
+    </main>
+    <div class="top">
+        <a href="#top">Go Top</a>
+    </div>
+
+    <!-- Benefits ------------------------------------------------------------------------------------------------------- -->
+    <h1 id="benefit-head">Benefits</h1>
+    <div class="grid-container">
+
+        <div class="grid-item">
+            <img src="asset/budget.png" alt="solution" class="benefits">
+            <h2>Easy Tax Planning</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/compliant.png" alt="solution" class="benefits">
+            <h2>Legal Compliance</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/money-management.png" alt="solution" class="benefits">
+            <h2>Cost-Effective Solutions</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/experience.png" alt="solution" class="benefits">
+            <h2>Expertise</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/policy.png" alt="solution" class="benefits">
+            <h2>Extensive Qualifications</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/value.png" alt="solution" class="benefits">
+            <h2>Strong Client Base</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/solution.png" alt="solution" class="benefits">
+            <h2>Headache-Free Solutions</h2>
+        </div>
+
+        <div class="grid-item">
+            <img src="asset/peace-of-mind.png" alt="solution" class="benefits">
+            <h2>Peace Of Mind</h2>
+        </div>
+    </div>
+
+    <!-- Work Rates ------------------------------------------------------------------------------------------------------- -->
+
+
+    <h1 id="service-head">Services <span id="negotiate">(prices are negotiable)</span> </h1>
+    <div id="services">
+        <div class="service-grid">
+            <div class="service-grid-item">
+                <h2>Income Tax Return (ITR)</h2>
+                <h2> <strike> ₹2500 </strike> </h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>GST Return (Start)</h2>
+                <h2>₹5000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>GST Return (Per Month)</h2>
+                <h2>₹1500 </h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Business Development (Per Month)</h2>
+                <h2>₹2000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Cost Benefit Analysis</h2>
+                <h2>₹1000 / 5%</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Investment Advisory</h2>
+                <h2>₹500 / 10%</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Partnership Deed</h2>
+                <h2>₹2500</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Tax Deducted at Source (TDS)</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Tax Collected at Source (TCS)</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Life Insurance Corporation(LIC)</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Rent Agreement</h2>
+                <h2>₹2000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Passport</h2>
+                <h2>₹2500</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Driving License</h2>
+                <h2>₹2500</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Bank Account Opening</h2>
+                <h2>₹500</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Demat Account Opening</h2>
+                <h2>₹500</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Profit and Loss</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Gumasta License</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Food License</h2>
+                <h2>₹1000</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Pan Card</h2>
+                <h2>₹250</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Loan</h2>
+                <h2>₹1000 / 0.5%</h2>
+            </div>
+            <div class="service-grid-item">
+                <h2>Pan Aadhar Link</h2>
+                <h2>₹2000</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer id="Contact">
+        <div class="footer-wrapper">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a class="contact-details" href="mailto:ujwalmishraaa@gmail.com?"
+                            target="Mail Ujwal Mishra">Email : ujwalmishraaa@gmail.com</a></li>
+                    <li><a class="contact-details" href="+91 85912 17820">Phone : +91 85912 17820</a></li>
+                    <li><a class="contact-details" href="https://goo.gl/maps/j1LbijNKAtcohz6K8"
+                            target="Address Ujwal Mishra">Address: B-8, Astvinayak
+                            society, sector-05, kalamboli, Navi
+                            Mumbai, Maharashtra</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-nav">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a class="contact-details" href="#top">Home</a></li>
+                    <li><a class="contact-details" href="#abt-us">About Us</a></li>
+                    <li><a class="contact-details" href="#benefit-head">Benefits</a></li>
+                    <li><a class="contact-details" href="#service-head">Services</a></li>
+                    <li><a class="contact-details" href="#Contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href=""><img class="grid-item-social" src="asset/instagram.png" alt=""></a>
+                <a href=""><img class="grid-item-social" src="asset/facebook.png" alt=""></a>
+                <a href=""><img class="grid-item-social" src="asset/twitter.png" alt=""></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
