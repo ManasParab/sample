@@ -182,8 +182,8 @@ body {
     /* Apply the animation to the element */
     .container {
         /* animation: slide-in 2s ease-in; */
-        margin-top: 20vw;
-        padding-top: 20vw;
+        margin-top: 10vw;
+        padding-top: 10vw;
         margin-left: 8vw;
         width: 40vw;
         display: block;
@@ -417,6 +417,8 @@ body {
         background-color: #555;
     }
 
+
+    
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
@@ -593,8 +595,8 @@ body {
     /* Apply the animation to the element */
     .container {
         /* animation: slide-in 2s ease-in; */
-        margin-top: 20vw;
-        padding-top: 20vw;
+        margin-top: 10vw;
+        padding-top: 10vw;
         margin-left: 8vw;
         width: 40vw;
         display: block;
@@ -827,6 +829,8 @@ body {
     .top:hover {
         background-color: #555;
     }
+
+
 
 
 }
@@ -1006,8 +1010,8 @@ body {
     /* Apply the animation to the element */
     .container {
         /* animation: slide-in 2s ease-in; */
-        margin-top: 20vw;
-        padding-top: 20vw;
+        margin-top: 10vw;
+        padding-top: 10vw;
         margin-left: 8vw;
         width: 40vw;
         display: block;
