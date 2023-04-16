@@ -171,12 +171,13 @@ body {
 
     /* Apply the animation to the element */
     .container {
-        /* animation: slide-in 2s ease-in; */
         margin-top: 20vw;
         padding-top: 20vw;
         margin-left: 8vw;
         width: 40vw;
         display: block;
+        text-align: justify;
+        text-justify: inter-word;
         opacity: 1;
         font-size: 120%;
         color: #203555;
@@ -407,7 +408,7 @@ body {
 
 }
 
-@media only screen and (min-width: 767px) and (max-width: 992px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
     /* Your styles here */
 
     /* Reset the default styles */
@@ -494,7 +495,7 @@ body {
         display: flex;
         justify-content: right;
         align-items: right;
-        padding-right: 5vw;
+        padding-right: 12vw;
         border-bottom: #333 0.01px solid;
     }
 
@@ -512,9 +513,9 @@ body {
         color: #203555;
         text-decoration: none;
         background-color: none;
-        padding: 10px 20px;
+        padding: 10px 5px;
         border: none;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bolder;
         text-transform: uppercase;
     }
@@ -523,7 +524,7 @@ body {
         color: white;
         text-decoration: none;
         background-color: #203555;
-        padding: 10px 20px;
+        padding: 10px 5px;
         border: none;
         font-size: 16px;
         font-weight: bolder;
@@ -534,7 +535,7 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -44vw;
+        margin-left: -24vw;
         width: 18vw;
         height: 3.6vw;
     }
@@ -576,6 +577,8 @@ body {
         margin-left: 8vw;
         width: 40vw;
         display: block;
+        text-align: justify;
+        text-justify: inter-word;
         opacity: 1;
         font-size: 120%;
         color: #203555;
@@ -807,7 +810,7 @@ body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
     /* Your styles here */
 
     /* Reset the default styles */
@@ -976,6 +979,8 @@ body {
         margin-left: 8vw;
         width: 40vw;
         display: block;
+        text-align: justify;
+        text-justify: inter-word;
         opacity: 1;
         font-size: 120%;
         color: #203555;
