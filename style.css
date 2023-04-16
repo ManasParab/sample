@@ -50,7 +50,7 @@ body {
         display: flex;
         justify-content: left;
         align-items: left;
-        margin-right: 2vw;
+        padding-left: 5vw;
         border-bottom: #333 0.01px solid;
     }
 
@@ -60,7 +60,7 @@ body {
         background-color: none;
         padding: 10px 20px;
         border: none;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
     }
@@ -71,11 +71,10 @@ body {
         background-color: white;
         padding: 6px 20px;
         border: none;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
     }
-
 
     .top-nav-ul {
         list-style: none;
@@ -96,7 +95,7 @@ body {
         display: flex;
         justify-content: right;
         align-items: right;
-        padding-right: 3vw;
+        padding-right: 5vw;
         border-bottom: #333 0.01px solid;
     }
 
@@ -136,787 +135,7 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -48vw;
-        width: 18vw;
-        height: 3.6vw;
-    }
-
-    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
-    .um-img {
-        padding-top: 6vw;
-        float: left;
-        width: 50vw;
-    }
-
-
-
-    .tax-img {
-        margin-top: 6vw;
-        float: right;
-        width: 48vw;
-    }
-
-    /*About Us information --------------------------------------------------------------------*/
-
-    /* @keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(200%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(00%);
-    }
-} */
-
-    /* Apply the animation to the element */
-    .container {
-        /* animation: slide-in 2s ease-in; */
-        margin-top: 34vw;
-        margin-left: 8vw;
-        width: 40vw;
-        display: block;
-        opacity: 1;
-        font-size: 120%;
-        color: #203555;
-    }
-
-    #abt-us-details {
-        margin-top: 1vw;
-    }
-
-    #abt-us {
-        font-size: 4vw;
-        padding-top: 12vw;
-    }
-
-    #us {
-        color: #0071BC;
-    }
-
-    /* main {
-    margin-top: 500px;
-} */
-
-    /*Indian Map Image ------------------------------------------------------------------------*/
-
-    .map-img {
-        animation: slide-in 2s ease-in;
-        margin-top: -30vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
-    }
-
-
-
-    .benefits {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 110px;
-    }
-
-
-    #benefit-head {
-        margin-top: 4vw;
-        padding-top: 10vw;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid-container {
-        padding-top: 2vw;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 2%;
-        place-items: center;
-        justify-items: center;
-    }
-
-    .grid-item {
-        width: 80%;
-        padding: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        font-size: 1rem;
-    }
-
-
-    #service-head {
-        margin-top: 4vw;
-        padding-top: 10vw;
-        width: 80%;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service-grid {
-        line-height: 30px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
-        justify-items: center;
-    }
-
-    #services {
-        padding-top: 3vw;
-        padding-bottom: 34vw;
-    }
-
-    .service-grid-item {
-        font-size: small;
-        box-shadow: 10px 10px #0071BC;
-        background-color: #203555;
-        color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    #negotiate {
-        color: red;
-        font-size: 30px;
-        padding-bottom: 1vw;
-    }
-
-    /* Footer ---------------------------------------------------------------------------------*/
-
-    footer {
-        background-color: #203555;
-        padding: 40px 0;
-
-    }
-
-    .footer-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .contact-info,
-    .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
-        margin-bottom: 30px;
-    }
-
-    .contact-info h3,
-    .footer-nav h3 {
-        color: #0071BC;
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .contact-info ul,
-    .footer-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .contact-info a,
-    .footer-nav a {
-        text-decoration: none;
-    }
-
-    .contact-details:hover {
-        text-decoration: underline;
-    }
-
-    .contact-info li,
-    .footer-nav li {
-        margin-bottom: 10px;
-
-    }
-
-
-    .contact-details {
-        font-weight: bold;
-        font-size: 20px;
-        color: #fff;
-        padding-bottom: 14px;
-    }
-
-    .grid-item-social {
-
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
-    }
-
-    .socials {
-        margin-left: -1.3vw;
-        width: 30%;
-    }
-
-    .top {
-        width: 100%;
-        position: sticky;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: none;
-    }
-
-    .top #top {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .top:hover {
-        background-color: #555;
-    }
-
-
-
-}
-
-@media only screen and (min-width: 767px) and (max-width: 992px) {
-    /* Your styles here */
-
-    /* Reset the default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* Set the body background color */
-    body {
-        background-color: #fff;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    #TF {
-        /* Taxo File top text */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 1000;
-        font-size: 3vw;
-        padding: 2vw;
-        padding-left: 2vw;
-    }
-
-    /* TOP Navigation Bar ---------------------------------------------------------------------*/
-
-    #nav-stick {
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-
-
-    .nav1 {
-        width: 100%;
-        background-color: #0071BC;
-        height: 40px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .top-nav-btns {
-        color: white;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-btns:hover {
-        color: #203555;
-        text-decoration: none;
-        background-color: white;
-        padding: 6px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-
-    .top-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .top-nav-li {
-        margin: 0 20px;
-    }
-
-    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
-
-    .nav2 {
-        width: 100%;
-        background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        padding-right: 3vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .btm-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .btm-nav-li {
-        margin: 0 20px;
-    }
-
-    .btm-nav-btns {
-        color: #203555;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    .btm-nav-btns:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #203555;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    /*NAVBAR Logo -----------------------------------------------------------------------------*/
-
-    .logo {
-        margin-top: 0.7vw;
-        margin-left: -48vw;
-        width: 18vw;
-        height: 3.6vw;
-    }
-
-    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
-    .um-img {
-        padding-top: 6vw;
-        float: left;
-        width: 50vw;
-    }
-
-
-
-    .tax-img {
-        margin-top: 6vw;
-        float: right;
-        width: 48vw;
-    }
-
-    /*About Us information --------------------------------------------------------------------*/
-
-    /* @keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(200%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(00%);
-    }
-} */
-
-    /* Apply the animation to the element */
-    .container {
-        /* animation: slide-in 2s ease-in; */
-        margin-top: 34vw;
-        margin-left: 8vw;
-        width: 40vw;
-        display: block;
-        opacity: 1;
-        font-size: 120%;
-        color: #203555;
-    }
-
-    #abt-us-details {
-        margin-top: 1vw;
-    }
-
-    #abt-us {
-        font-size: 4vw;
-        padding-top: 12vw;
-    }
-
-    #us {
-        color: #0071BC;
-    }
-
-    /* main {
-    margin-top: 500px;
-} */
-
-    /*Indian Map Image ------------------------------------------------------------------------*/
-
-    .map-img {
-        animation: slide-in 2s ease-in;
-        margin-top: -30vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
-    }
-
-
-
-    .benefits {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 110px;
-    }
-
-
-    #benefit-head {
-        margin-top: 4vw;
-        padding-top: 10vw;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .grid-container {
-        padding-top: 2vw;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 2%;
-        place-items: center;
-        justify-items: center;
-    }
-
-    .grid-item {
-        width: 80%;
-        padding: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        font-size: 1rem;
-    }
-
-
-    #service-head {
-        margin-top: 4vw;
-        padding-top: 10vw;
-        width: 80%;
-        padding-bottom: 10px;
-        font-size: 60px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service-grid {
-        line-height: 30px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
-        justify-items: center;
-    }
-
-    #services {
-        padding-top: 3vw;
-        padding-bottom: 34vw;
-    }
-
-    .service-grid-item {
-        font-size: small;
-        box-shadow: 10px 10px #0071BC;
-        background-color: #203555;
-        color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    #negotiate {
-        color: red;
-        font-size: 30px;
-        padding-bottom: 1vw;
-    }
-
-    /* Footer ---------------------------------------------------------------------------------*/
-
-    footer {
-        background-color: #203555;
-        padding: 40px 0;
-
-    }
-
-    .footer-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .contact-info,
-    .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
-        margin-bottom: 30px;
-    }
-
-    .contact-info h3,
-    .footer-nav h3 {
-        color: #0071BC;
-        font-size: 50px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .contact-info ul,
-    .footer-nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .contact-info a,
-    .footer-nav a {
-        text-decoration: none;
-    }
-
-    .contact-details:hover {
-        text-decoration: underline;
-    }
-
-    .contact-info li,
-    .footer-nav li {
-        margin-bottom: 10px;
-
-    }
-
-
-    .contact-details {
-        font-weight: bold;
-        font-size: 20px;
-        color: #fff;
-        padding-bottom: 14px;
-    }
-
-    .grid-item-social {
-
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
-    }
-
-    .socials {
-        margin-left: -1.3vw;
-        width: 30%;
-    }
-
-    .top {
-        width: 100%;
-        position: sticky;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: none;
-    }
-
-    .top #top {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .top:hover {
-        background-color: #555;
-    }
-
-
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) {
-    /* Your styles here */
-
-    /* Reset the default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* Set the body background color */
-    body {
-        background-color: #fff;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    #TF {
-        /* Taxo File top text */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 1000;
-        font-size: 3vw;
-        padding: 2vw;
-        padding-left: 2vw;
-    }
-
-    /* TOP Navigation Bar ---------------------------------------------------------------------*/
-
-    #nav-stick {
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-
-
-    .nav1 {
-        width: 100%;
-        background-color: #0071BC;
-        height: 40px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        margin-right: 2vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .top-nav-btns {
-        color: white;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-btns:hover {
-        color: #203555;
-        text-decoration: none;
-        background-color: white;
-        padding: 6px 20px;
-        border: none;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .top-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .top-nav-li {
-        margin: 0 20px;
-    }
-
-    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
-
-    .nav2 {
-        width: 100%;
-        background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        padding-right: 3vw;
-        border-bottom: #333 0.01px solid;
-    }
-
-    .btm-nav-ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .btm-nav-li {
-        margin: 0 20px;
-    }
-
-    .btm-nav-btns {
-        color: #203555;
-        text-decoration: none;
-        background-color: none;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    .btm-nav-btns:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #203555;
-        padding: 10px 20px;
-        border: none;
-        font-size: 16px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    /*NAVBAR Logo -----------------------------------------------------------------------------*/
-
-    .logo {
-        margin-top: 0.7vw;
-        margin-left: -48vw;
+        margin-left: -44vw;
         width: 18vw;
         height: 3.6vw;
     }
@@ -984,7 +203,7 @@ body {
 
     .map-img {
         animation: slide-in 2s ease-in;
-        margin-top: -30vw;
+        margin-top: -31vw;
         margin-right: 4vw;
         float: right;
         width: 32vw;
@@ -994,14 +213,13 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        width: 110px;
+        width: 40%;
     }
 
 
     #benefit-head {
         margin-top: 4vw;
-        padding-top: 10vw;
+        padding-top: 11vw;
         font-size: 60px;
         text-align: center;
         margin-left: auto;
@@ -1010,19 +228,20 @@ body {
 
     .grid-container {
         padding-top: 2vw;
-        width: 70%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-row-gap: 2%;
+        grid-column-gap: 1px;
         place-items: center;
         justify-items: center;
     }
 
     .grid-item {
         width: 80%;
-        padding: 16px;
+        padding: 14px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -1043,13 +262,13 @@ body {
 
     .service-grid {
         line-height: 30px;
-        width: 80%;
+        width: 74%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-row-gap: 10%;
-        grid-column-gap: 5%;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-row-gap: 6%;
+        grid-column-gap: 1%;
         justify-items: center;
     }
 
@@ -1059,13 +278,13 @@ body {
     }
 
     .service-grid-item {
-        font-size: small;
+        font-size: x-small;
         box-shadow: 10px 10px #0071BC;
         background-color: #203555;
         color: #fff;
-        width: 260px;
-        max-height: 150px;
-        border-radius: 10px;
+        width: 240px;
+        max-height: 350px;
+        border-radius: 14px;
         padding: 4px;
         text-align: center;
     }
@@ -1074,6 +293,11 @@ body {
         color: red;
         font-size: 30px;
         padding-bottom: 1vw;
+    }
+
+    .new-price {
+        color: greenyellow;
+
     }
 
     /* Footer ---------------------------------------------------------------------------------*/
@@ -1140,7 +364,16 @@ body {
     }
 
     .grid-item-social {
+        margin-right: 1vw;
+        width: 6vw;
+        padding: 1vw;
+        place-items: left;
+    }
 
+    .grid-item-social:hover {
+        margin-right: 1vw;
+        border: 2px solid white;
+        border-radius: 100%;
         width: 6vw;
         padding: 1vw;
         place-items: left;
@@ -1171,4 +404,805 @@ body {
     .top:hover {
         background-color: #555;
     }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    /* Your styles here */
+
+    /* Reset the default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Set the body background color */
+    body {
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    #TF {
+        /* Taxo File top text */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 1000;
+        font-size: 3vw;
+        padding: 2vw;
+        padding-left: 2vw;
+    }
+
+    /* TOP Navigation Bar ---------------------------------------------------------------------*/
+
+    #nav-stick {
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .nav1 {
+        width: 100%;
+        background-color: #0071BC;
+        height: 40px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        padding-left: 5vw;
+        border-bottom: #333 0.01px solid;
+    }
+
+    .top-nav-btns {
+        color: white;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-btns:hover {
+        color: #203555;
+        text-decoration: none;
+        background-color: white;
+        padding: 6px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .top-nav-li {
+        margin: 0 20px;
+    }
+
+    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
+
+    .nav2 {
+        width: 100%;
+        background-color: #fff;
+        height: 5vw;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        padding-right: 5vw;
+        border-bottom: #333 0.01px solid;
+    }
+
+    .btm-nav-ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .btm-nav-li {
+        margin: 0 20px;
+    }
+
+    .btm-nav-btns {
+        color: #203555;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .btm-nav-btns:hover {
+        color: white;
+        text-decoration: none;
+        background-color: #203555;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    /*NAVBAR Logo -----------------------------------------------------------------------------*/
+
+    .logo {
+        margin-top: 0.7vw;
+        margin-left: -44vw;
+        width: 18vw;
+        height: 3.6vw;
+    }
+
+    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
+    .um-img {
+        padding-top: 5vw;
+        float: left;
+        margin-left: 4vw;
+        width: 54vw;
+    }
+
+    .tax-img {
+        margin-right: 4vw;
+        margin-top: 13.8vw;
+        float: right;
+        width: 36vw;
+    }
+
+    /*About Us information --------------------------------------------------------------------*/
+
+    /* @keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(00%);
+    }
+} */
+
+    /* Apply the animation to the element */
+    .container {
+        /* animation: slide-in 2s ease-in; */
+        margin-top: 20vw;
+        padding-top: 20vw;
+        margin-left: 8vw;
+        width: 40vw;
+        display: block;
+        opacity: 1;
+        font-size: 120%;
+        color: #203555;
+    }
+
+    #abt-us-details {
+        margin-top: 1vw;
+    }
+
+    #abt-us {
+        font-size: 4vw;
+        padding-top: 12vw;
+    }
+
+    #us {
+        color: #0071BC;
+    }
+
+    /* main {
+    margin-top: 500px;
+} */
+
+    /*Indian Map Image ------------------------------------------------------------------------*/
+
+    .map-img {
+        animation: slide-in 2s ease-in;
+        margin-top: -31vw;
+        margin-right: 4vw;
+        float: right;
+        width: 32vw;
+    }
+
+    .benefits {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    #benefit-head {
+        margin-top: 4vw;
+        padding-top: 11vw;
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid-container {
+        padding-top: 2vw;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-row-gap: 2%;
+        grid-column-gap: 1px;
+        place-items: center;
+        justify-items: center;
+    }
+
+    .grid-item {
+        width: 80%;
+        padding: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    #service-head {
+        margin-top: 4vw;
+        padding-top: 10vw;
+        width: 80%;
+        padding-bottom: 10px;
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-grid {
+        line-height: 30px;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-row-gap: 6%;
+        grid-column-gap: 1%;
+        justify-items: center;
+    }
+
+    #services {
+        padding-top: 3vw;
+        padding-bottom: 34vw;
+    }
+
+    .service-grid-item {
+        font-size: x-small;
+        box-shadow: 10px 10px #0071BC;
+        background-color: #203555;
+        color: #fff;
+        width: 240px;
+        max-height: 350px;
+        border-radius: 14px;
+        padding: 4px;
+        text-align: center;
+    }
+
+    #negotiate {
+        color: red;
+        font-size: 30px;
+        padding-bottom: 1vw;
+    }
+
+    .new-price {
+        color: greenyellow;
+
+    }
+
+    /* Footer ---------------------------------------------------------------------------------*/
+
+    footer {
+        background-color: #203555;
+        padding: 40px 0;
+
+    }
+
+    .footer-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-info,
+    .footer-nav {
+        max-width: 30%;
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+    .contact-info h3,
+    .footer-nav h3 {
+        color: #0071BC;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contact-info ul,
+    .footer-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .contact-info a,
+    .footer-nav a {
+        text-decoration: none;
+    }
+
+    .contact-details:hover {
+        text-decoration: underline;
+    }
+
+    .contact-info li,
+    .footer-nav li {
+        margin-bottom: 10px;
+
+    }
+
+    .contact-details {
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        padding-bottom: 14px;
+    }
+
+    .grid-item-social {
+        margin-right: 1vw;
+        width: 6vw;
+        padding: 1vw;
+        place-items: left;
+    }
+
+    .grid-item-social:hover {
+        margin-right: 1vw;
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 6vw;
+        padding: 1vw;
+        place-items: left;
+    }
+
+    .socials {
+        margin-left: -1.3vw;
+        width: 30%;
+    }
+
+    .top {
+        width: 100%;
+        position: sticky;
+        bottom: 20px;
+        right: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .top #top {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .top:hover {
+        background-color: #555;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) {
+    /* Your styles here */
+
+    /* Reset the default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Set the body background color */
+    body {
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    #TF {
+        /* Taxo File top text */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 1000;
+        font-size: 3vw;
+        padding: 2vw;
+        padding-left: 2vw;
+    }
+
+    /* TOP Navigation Bar ---------------------------------------------------------------------*/
+
+    #nav-stick {
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .nav1 {
+        width: 100%;
+        background-color: #0071BC;
+        height: 40px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        padding-left: 5vw;
+        border-bottom: #333 0.01px solid;
+    }
+
+    .top-nav-btns {
+        color: white;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-btns:hover {
+        color: #203555;
+        text-decoration: none;
+        background-color: white;
+        padding: 6px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .top-nav-li {
+        margin: 0 20px;
+    }
+
+    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
+
+    .nav2 {
+        width: 100%;
+        background-color: #fff;
+        height: 5vw;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        padding-right: 5vw;
+        border-bottom: #333 0.01px solid;
+    }
+
+    .btm-nav-ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .btm-nav-li {
+        margin: 0 20px;
+    }
+
+    .btm-nav-btns {
+        color: #203555;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .btm-nav-btns:hover {
+        color: white;
+        text-decoration: none;
+        background-color: #203555;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    /*NAVBAR Logo -----------------------------------------------------------------------------*/
+
+    .logo {
+        margin-top: 0.7vw;
+        margin-left: -44vw;
+        width: 18vw;
+        height: 3.6vw;
+    }
+
+    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
+    .um-img {
+        padding-top: 5vw;
+        float: left;
+        margin-left: 4vw;
+        width: 54vw;
+    }
+
+    .tax-img {
+        margin-right: 4vw;
+        margin-top: 13.8vw;
+        float: right;
+        width: 36vw;
+    }
+
+    /*About Us information --------------------------------------------------------------------*/
+
+    /* @keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(00%);
+    }
+} */
+
+    /* Apply the animation to the element */
+    .container {
+        /* animation: slide-in 2s ease-in; */
+        margin-top: 20vw;
+        padding-top: 20vw;
+        margin-left: 8vw;
+        width: 40vw;
+        display: block;
+        opacity: 1;
+        font-size: 120%;
+        color: #203555;
+    }
+
+    #abt-us-details {
+        margin-top: 1vw;
+    }
+
+    #abt-us {
+        font-size: 4vw;
+        padding-top: 12vw;
+    }
+
+    #us {
+        color: #0071BC;
+    }
+
+    /* main {
+    margin-top: 500px;
+} */
+
+    /*Indian Map Image ------------------------------------------------------------------------*/
+
+    .map-img {
+        animation: slide-in 2s ease-in;
+        margin-top: -31vw;
+        margin-right: 4vw;
+        float: right;
+        width: 32vw;
+    }
+
+    .benefits {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    #benefit-head {
+        margin-top: 4vw;
+        padding-top: 11vw;
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid-container {
+        padding-top: 2vw;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-row-gap: 2%;
+        grid-column-gap: 1px;
+        place-items: center;
+        justify-items: center;
+    }
+
+    .grid-item {
+        width: 80%;
+        padding: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    #service-head {
+        margin-top: 4vw;
+        padding-top: 10vw;
+        width: 80%;
+        padding-bottom: 10px;
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-grid {
+        line-height: 30px;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-row-gap: 6%;
+        grid-column-gap: 1%;
+        justify-items: center;
+    }
+
+    #services {
+        padding-top: 3vw;
+        padding-bottom: 34vw;
+    }
+
+    .service-grid-item {
+        font-size: x-small;
+        box-shadow: 10px 10px #0071BC;
+        background-color: #203555;
+        color: #fff;
+        width: 240px;
+        max-height: 350px;
+        border-radius: 14px;
+        padding: 4px;
+        text-align: center;
+    }
+
+    #negotiate {
+        color: red;
+        font-size: 30px;
+        padding-bottom: 1vw;
+    }
+
+    .new-price {
+        color: greenyellow;
+
+    }
+
+    /* Footer ---------------------------------------------------------------------------------*/
+
+    footer {
+        background-color: #203555;
+        padding: 40px 0;
+
+    }
+
+    .footer-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-info,
+    .footer-nav {
+        max-width: 30%;
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+    .contact-info h3,
+    .footer-nav h3 {
+        color: #0071BC;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contact-info ul,
+    .footer-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .contact-info a,
+    .footer-nav a {
+        text-decoration: none;
+    }
+
+    .contact-details:hover {
+        text-decoration: underline;
+    }
+
+    .contact-info li,
+    .footer-nav li {
+        margin-bottom: 10px;
+
+    }
+
+    .contact-details {
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        padding-bottom: 14px;
+    }
+
+    .grid-item-social {
+        margin-right: 1vw;
+        width: 6vw;
+        padding: 1vw;
+        place-items: left;
+    }
+
+    .grid-item-social:hover {
+        margin-right: 1vw;
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 6vw;
+        padding: 1vw;
+        place-items: left;
+    }
+
+    .socials {
+        margin-left: -1.3vw;
+        width: 30%;
+    }
+
+    .top {
+        width: 100%;
+        position: sticky;
+        bottom: 20px;
+        right: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .top #top {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .top:hover {
+        background-color: #555;
+    }
+
+
 }
