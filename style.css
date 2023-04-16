@@ -140,19 +140,29 @@ body {
         height: 3.6vw;
     }
 
+    .AKAM {
+        padding-top: 7.5vw;
+        width: 12vw;
+        margin-left: 3vw;
+    }
+
+    .G20 {
+        width: 14vw;
+        margin-left: 3vw;
+    }
+
     /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
     .um-img {
         padding-top: 5vw;
         float: left;
         margin-left: 4vw;
-        width: 54vw;
+        width: 55vw;
     }
 
     .tax-img {
-        margin-right: 4vw;
-        margin-top: 13.8vw;
+        margin-right: 5vw;
         float: right;
-        width: 36vw;
+        width: 34vw;
     }
 
     /*About Us information --------------------------------------------------------------------*/
@@ -171,6 +181,7 @@ body {
 
     /* Apply the animation to the element */
     .container {
+        /* animation: slide-in 2s ease-in; */
         margin-top: 20vw;
         padding-top: 20vw;
         margin-left: 8vw;
@@ -495,7 +506,7 @@ body {
         display: flex;
         justify-content: right;
         align-items: right;
-        padding-right: 12vw;
+        padding-right: 5vw;
         border-bottom: #333 0.01px solid;
     }
 
@@ -513,9 +524,9 @@ body {
         color: #203555;
         text-decoration: none;
         background-color: none;
-        padding: 10px 5px;
+        padding: 10px 20px;
         border: none;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bolder;
         text-transform: uppercase;
     }
@@ -524,7 +535,7 @@ body {
         color: white;
         text-decoration: none;
         background-color: #203555;
-        padding: 10px 5px;
+        padding: 10px 20px;
         border: none;
         font-size: 16px;
         font-weight: bolder;
@@ -535,9 +546,20 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -24vw;
+        margin-left: -44vw;
         width: 18vw;
         height: 3.6vw;
+    }
+
+    .AKAM {
+        padding-top: 7.5vw;
+        width: 12vw;
+        margin-left: 3vw;
+    }
+
+    .G20 {
+        width: 14vw;
+        margin-left: 3vw;
     }
 
     /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
@@ -545,14 +567,13 @@ body {
         padding-top: 5vw;
         float: left;
         margin-left: 4vw;
-        width: 54vw;
+        width: 55vw;
     }
 
     .tax-img {
-        margin-right: 4vw;
-        margin-top: 13.8vw;
+        margin-right: 5vw;
         float: right;
-        width: 36vw;
+        width: 34vw;
     }
 
     /*About Us information --------------------------------------------------------------------*/
@@ -807,6 +828,7 @@ body {
         background-color: #555;
     }
 
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -942,19 +964,29 @@ body {
         height: 3.6vw;
     }
 
+    .AKAM {
+        padding-top: 7.5vw;
+        width: 12vw;
+        margin-left: 3vw;
+    }
+
+    .G20 {
+        width: 14vw;
+        margin-left: 3vw;
+    }
+
     /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
     .um-img {
         padding-top: 5vw;
         float: left;
         margin-left: 4vw;
-        width: 54vw;
+        width: 55vw;
     }
 
     .tax-img {
-        margin-right: 4vw;
-        margin-top: 13.8vw;
+        margin-right: 5vw;
         float: right;
-        width: 36vw;
+        width: 34vw;
     }
 
     /*About Us information --------------------------------------------------------------------*/
