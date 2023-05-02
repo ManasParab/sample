@@ -3,7 +3,8 @@ html {
 }
 
 body {
-
+    overflow-x: hidden;
+    overflow: hidden;
     /* overflow: hidden; */
 }
 
@@ -20,6 +21,8 @@ body {
 
     /* Set the body background color */
     body {
+        overflow-x: hidden;
+    overflow: hidden;
         background-color: #fff;
         font-family: Arial, sans-serif;
         color: #333;
@@ -40,6 +43,8 @@ body {
         width: 100%;
         position: sticky;
         top: 0;
+        right: 0;
+        z-index: 1;
     }
 
 
@@ -88,10 +93,55 @@ body {
 
     /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
 
+
+    #menu-toggle {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+        padding: 3px;
+        color: #203555;
+        font-size: 2rem;
+        cursor: pointer;
+        float: right;
+    }
+    #menu-icon:hover {
+        background-color: #0071BC;
+    }
+    #menu {
+        position: fixed;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        width: 100%;
+        background-color: #0071BC;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+    
+    #menu li {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 1rem;
+        border-top: 1px solid #444;
+    }
+    #menu li:first-child {
+        border-top: none;
+    }
+    #menu-toggle:checked ~ #menu {
+        transform: translateX(0%);
+    }
+
     .nav2 {
         width: 100%;
         background-color: #fff;
-        height: 5vw;
+        height: 8vw;
         display: flex;
         justify-content: right;
         align-items: right;
@@ -101,7 +151,7 @@ body {
 
     .btm-nav-ul {
         list-style: none;
-        display: flex;
+        display:block;
         align-items: center;
     }
 
@@ -110,7 +160,8 @@ body {
     }
 
     .btm-nav-btns {
-        color: #203555;
+        /* display: none; */
+        color: #fff;
         text-decoration: none;
         background-color: none;
         padding: 10px 20px;
@@ -135,9 +186,9 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -44vw;
-        width: 18vw;
-        height: 3.6vw;
+        margin-left: -70vw;
+        width: 28vw;
+        height: 6vw;
     }
 
     .AKAM {
@@ -436,7 +487,7 @@ body {
 
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Your styles here */
 
     /* Reset the default styles */
@@ -516,6 +567,24 @@ body {
 
     /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
 
+
+    
+    #menu-toggle {
+        display: none;
+    }
+    #menu-icon {
+        display: none;
+        padding: 3px;
+        color: #203555;
+        font-size: 2rem;
+        cursor: pointer;
+        float: right;
+    }
+    #menu-icon:hover {
+
+        background-color: #0071BC;
+    }
+
     .nav2 {
         width: 100%;
         background-color: #fff;
@@ -563,7 +632,7 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -44vw;
+        margin-left: -24vw;
         width: 18vw;
         height: 3.6vw;
     }
@@ -866,7 +935,7 @@ body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     /* Your styles here */
 
     /* Reset the default styles */
