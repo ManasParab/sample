@@ -7,8 +7,8 @@ body {
     /* overflow: hidden; */
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 425px){
     /* Your styles here */
 
     /* Reset the default styles */
@@ -89,17 +89,20 @@ body {
     /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
 
     .nav2 {
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         background-color: #fff;
-        height: 5vw;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        padding-right: 5vw;
+        height: 14vw;
+        /* display: flex; */
+        /* justify-content: right; */
+        /* align-items: right; */
+        /* padding-right: 5vw; */
         border-bottom: #333 0.01px solid;
     }
 
     .btm-nav-ul {
+        display: none;
         list-style: none;
         display: flex;
         align-items: center;
@@ -110,6 +113,7 @@ body {
     }
 
     .btm-nav-btns {
+        display: none;
         color: #203555;
         text-decoration: none;
         background-color: none;
@@ -121,6 +125,7 @@ body {
     }
 
     .btm-nav-btns:hover {
+        display: none;
         color: white;
         text-decoration: none;
         background-color: #203555;
@@ -135,34 +140,50 @@ body {
 
     .logo {
         margin-top: 0.7vw;
-        margin-left: -44vw;
-        width: 18vw;
-        height: 3.6vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        display: inline-block;
+        /* height: 3.6vw; */
+    }
+
+    #India{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .AKAM {
+        float: left;
+        /* float: left; */
         padding-top: 7.5vw;
-        width: 12vw;
-        margin-left: 3vw;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .G20 {
-        width: 14vw;
-        margin-left: 3vw;
+        /* float: left; */
+        padding-top: 7.5vw;
+        width: 50%;
+        float: right;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
     .um-img {
         padding-top: 5vw;
-        float: left;
-        margin-left: 4vw;
-        width: 55vw;
+        /* float: left; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     .tax-img {
-        margin-right: 5vw;
+        /* margin-right: 5vw; */
         float: right;
-        width: 34vw;
+        width: 100%;
     }
 
     /*About Us information --------------------------------------------------------------------*/
@@ -183,14 +204,15 @@ body {
     .container {
         /* animation: slide-in 2s ease-in; */
         margin-top: 10vw;
-        padding-top: 10vw;
-        margin-left: 8vw;
-        width: 40vw;
+        padding-top: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
         display: block;
         text-align: justify;
         text-justify: inter-word;
         opacity: 1;
-        font-size: 120%;
+        font-size: 100%;
         color: #203555;
     }
 
@@ -199,8 +221,12 @@ body {
     }
 
     #abt-us {
-        font-size: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 10vw;
         padding-top: 12vw;
+        padding-bottom: 4%;
     }
 
     #us {
@@ -213,26 +239,33 @@ body {
 
     /*Indian Map Image ------------------------------------------------------------------------*/
 
+    #map{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .map-img {
         animation: slide-in 2s ease-in;
-        margin-top: -31vw;
-        margin-right: 4vw;
-        float: right;
-        width: 32vw;
+        padding-top: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     .benefits {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 50%;
     }
 
 
     #benefit-head {
         margin-top: 4vw;
         padding-top: 11vw;
-        font-size: 60px;
+        padding-bottom: 4%;
+        font-size: 10vw;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -240,24 +273,25 @@ body {
 
     .grid-container {
         padding-top: 2vw;
-        width: 60%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         grid-row-gap: 2%;
-        grid-column-gap: 1px;
+        grid-column-gap: 2%;
         place-items: center;
         justify-items: center;
     }
 
     .grid-item {
-        width: 80%;
-        padding: 14px;
+        width: 70%;
+        padding: 2vw;
+        line-height: 4vw;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        font-size: 1rem;
+        font-size: 2vw;
     }
 
 
@@ -266,7 +300,7 @@ body {
         padding-top: 10vw;
         width: 80%;
         padding-bottom: 10px;
-        font-size: 60px;
+        font-size: 10vw;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -279,14 +313,15 @@ body {
         margin-right: auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        grid-row-gap: 6%;
+        grid-row-gap: 1.4%;
         grid-column-gap: 1%;
         justify-items: center;
     }
 
     #services {
+        /* padding-bottom: 200%; */
         padding-top: 3vw;
-        padding-bottom: 34vw;
+        padding-bottom: 250%;
     }
 
     .service-grid-item {
@@ -294,16 +329,16 @@ body {
         box-shadow: 10px 10px #0071BC;
         background-color: #203555;
         color: #fff;
-        width: 240px;
-        max-height: 350px;
+        width: 90%;
+        max-height: 200px;
         border-radius: 14px;
-        padding: 4px;
+        padding: 1vw;
         text-align: center;
     }
 
     #negotiate {
         color: red;
-        font-size: 30px;
+        font-size: 5vw;
         padding-bottom: 1vw;
     }
 
@@ -315,13 +350,13 @@ body {
     .wtsp {
         width: 34px;
         margin-bottom: -6px;
-        margin-left: 12.4vw;
+        margin-left: 81%;
     }
 
     .wtsp:hover {
         width: 34px;
         margin-bottom: -6px;
-        margin-left: 12.4vw;
+        margin-left: 81%;
         border: 1px solid white;
         border-radius: 100%;
         border-width: 4px;
@@ -330,6 +365,7 @@ body {
     /* Footer ---------------------------------------------------------------------------------*/
 
     footer {
+        
         background-color: #203555;
         padding: 40px 0;
 
@@ -347,15 +383,17 @@ body {
 
     .contact-info,
     .footer-nav {
-        max-width: 30%;
-        flex-basis: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        flex-basis: 80%;
         margin-bottom: 30px;
     }
 
     .contact-info h3,
     .footer-nav h3 {
         color: #0071BC;
-        font-size: 50px;
+        font-size: 10vw;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -379,36 +417,40 @@ body {
 
     .contact-info li,
     .footer-nav li {
-        margin-bottom: 10px;
+        margin-bottom: 6px;
 
     }
 
     .contact-details {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 3vw;
         color: #fff;
         padding-bottom: 14px;
     }
 
     .grid-item-social {
-        margin-right: 1vw;
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+
+        width: 20%;
+        padding: 2vw;
     }
 
     .grid-item-social:hover {
-        margin-right: 1vw;
+        margin-left: auto;
+        margin-right: auto;
         border: 2px solid white;
         border-radius: 100%;
-        width: 6vw;
-        padding: 1vw;
-        place-items: left;
+        width: 20%;
+        padding: 2vw;
+        /* place-items: left; */
     }
 
     .socials {
-        margin-left: -1.3vw;
-        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
 
     .top {
@@ -436,7 +478,463 @@ body {
 
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    /* Your styles here */
+
+    /* Reset the default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Set the body background color */
+    body {
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    #TF {
+        /* Taxo File top text */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 1000;
+        font-size: 3vw;
+        padding: 2vw;
+        padding-left: 2vw;
+    }
+
+    /* TOP Navigation Bar ---------------------------------------------------------------------*/
+
+    #nav-stick {
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .nav1 {
+        width: 100%;
+        background-color: #0071BC;
+        height: 30px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        padding-left: 5vw;
+        border-bottom: #333 0.01px solid;
+    }
+
+    .top-nav-btns {
+        color: white;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-btns:hover {
+        color: #203555;
+        text-decoration: none;
+        background-color: white;
+        padding: 6px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .top-nav-ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .top-nav-li {
+        margin: 0 20px;
+    }
+
+    /*BOTTOM Navigation Bar --------------------------------------------------------------------*/
+
+    .nav2 {
+        width: 100%;
+        background-color: #fff;
+        height: 14vw;
+        /* display: flex; */
+        /* justify-content: right; */
+        /* align-items: right; */
+        /* padding-right: 5vw; */
+        border-bottom: #333 0.01px solid;
+    }
+
+    .nav2 a{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .btm-nav-ul {
+        display: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .btm-nav-li {
+        display: none;
+        margin: 0 20px;
+    }
+
+    .btm-nav-btns {
+        display: none;
+        color: #203555;
+        text-decoration: none;
+        background-color: none;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .btm-nav-btns:hover {
+        display: none;
+        color: white;
+        text-decoration: none;
+        background-color: #203555;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    /*NAVBAR Logo -----------------------------------------------------------------------------*/
+
+
+    
+    .logo {
+        margin-top: 0.7vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        margin-right: auto;
+        width: 60%;
+        /* height: 3.6vw; */
+    }
+
+    .AKAM {
+        /* display: none; */
+        float: left;
+        padding-top: 7.5vw;
+        width: 30%;
+        margin-left: 10vw;
+        margin-right: auto;
+    }
+
+    .G20 {
+        /* display: none; */
+        /* float: left; */
+        padding-top: 7.5vw;
+        width: 40%;
+        float: right;
+        margin-left: auto;
+        margin-right: 10vw;
+    }
+
+    /*Main Image of ujjwal Mishra and other Tax oriented illustrations ------------------------- */
+    .um-img {
+        padding-top: 5vw;
+        /* margin-top: 10%; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .tax-img {
+        margin-top: 40vw;
+        width: 100%;
+    }
+
+    /*About Us information --------------------------------------------------------------------*/
+
+    /* @keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(00%);
+    }
+} */
+
+    /* Apply the animation to the element */
+    .container {
+        /* animation: slide-in 2s ease-in; */
+        margin-top: 10vw;
+        padding-top: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: block;
+        text-align: justify;
+        text-justify: inter-word;
+        opacity: 1;
+        font-size: 100%;
+        color: #203555;
+    }
+
+    #abt-us-details {
+        margin-top: 1vw;
+    }
+
+    #abt-us {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 10vw;
+        padding-top: 12vw;
+        padding-bottom: 4%;
+    }
+
+    #us {
+        color: #0071BC;
+    }
+
+    /* main {
+    margin-top: 500px;
+} */
+
+    /*Indian Map Image ------------------------------------------------------------------------*/
+
+    #map{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-img {
+        animation: slide-in 2s ease-in;
+        padding-top: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .benefits {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    #benefit-head {
+        margin-top: 4vw;
+        padding-top: 11vw;
+        padding-bottom: 4%;
+        font-size: 10vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid-container {
+        padding-top: 2vw;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        place-items: center;
+        justify-items: center;
+    }
+
+    .grid-item {
+        margin-left: -30%;
+        width: 70%;
+        padding: 2vw;
+        line-height: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+
+    #service-head {
+        margin-top: 4vw;
+        padding-top: 10vw;
+        width: 80%;
+        padding-bottom: 10px;
+        font-size: 10vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-grid {
+        line-height: 25px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-row-gap: 1.4%;
+        grid-column-gap: 1%;
+        justify-items: center;
+    }
+
+    #services {
+        /* padding-bottom: 200%; */
+        padding-top: 3vw;
+        padding-bottom: 360%;
+    }
+
+    .service-grid-item {
+        font-size: x-small;
+        box-shadow: 10px 10px #0071BC;
+        background-color: #203555;
+        color: #fff;
+        width: 90%;
+        max-height: 200px;
+        border-radius: 14px;
+        padding: 1vw;
+        text-align: center;
+    }
+
+    #negotiate {
+        color: red;
+        font-size: 5vw;
+        padding-bottom: 1vw;
+    }
+
+    .new-price {
+        color: greenyellow;
+
+    }
+
+    .wtsp {
+        width: 34px;
+        margin-bottom: -6px;
+        margin-left: 81%;
+    }
+
+    .wtsp:hover {
+        width: 34px;
+        margin-bottom: -6px;
+        margin-left: 81%;
+        border: 1px solid white;
+        border-radius: 100%;
+        border-width: 4px;
+    }
+
+    /* Footer ---------------------------------------------------------------------------------*/
+
+    footer {
+        
+        background-color: #203555;
+        padding: 40px 0;
+
+    }
+
+    .footer-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-info,
+    .footer-nav {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        flex-basis: 80%;
+        margin-bottom: 30px;
+    }
+
+    .contact-info h3,
+    .footer-nav h3 {
+        color: #0071BC;
+        font-size: 10vw;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contact-info ul,
+    .footer-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .contact-info a,
+    .footer-nav a {
+        text-decoration: none;
+    }
+
+    .contact-details:hover {
+        text-decoration: underline;
+    }
+
+    .contact-info li,
+    .footer-nav li {
+        margin-bottom: 6px;
+
+    }
+
+    .contact-details {
+        font-weight: bold;
+        font-size: 3vw;
+        color: #fff;
+        padding-bottom: 14px;
+    }
+
+    .grid-item-social {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+
+        width: 20%;
+        padding: 2vw;
+    }
+
+    .grid-item-social:hover {
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 20%;
+        padding: 2vw;
+        /* place-items: left; */
+    }
+
+    .socials {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Your styles here */
 
     /* Reset the default styles */
@@ -714,7 +1212,7 @@ body {
 
     #services {
         padding-top: 3vw;
-        padding-bottom: 34vw;
+        /* padding-bottom: 120%; */
     }
 
     .service-grid-item {
@@ -760,6 +1258,9 @@ body {
     footer {
         background-color: #203555;
         padding: 40px 0;
+        margin-top: 100%;
+        bottom: 0;
+        position: relative;
 
     }
 
@@ -866,7 +1367,7 @@ body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     /* Your styles here */
 
     /* Reset the default styles */
@@ -997,6 +1498,7 @@ body {
         width: 18vw;
         height: 3.6vw;
     }
+    
 
     .AKAM {
         padding-top: 7.5vw;
@@ -1190,6 +1692,7 @@ body {
     footer {
         background-color: #203555;
         padding: 40px 0;
+        /* margin-top: 60%; */
 
     }
 
