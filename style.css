@@ -1017,11 +1017,11 @@ body {
     .nav2 {
         width: 100%;
         background-color: #fff;
-        height: 5vw;
+        height: 8vw;
         display: flex;
         justify-content: right;
         align-items: right;
-        padding-right: 5vw;
+        padding-right: 1vw;
         border-bottom: #333 0.01px solid;
     }
 
@@ -1032,7 +1032,7 @@ body {
     }
 
     .btm-nav-li {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     .btm-nav-btns {
@@ -1041,7 +1041,7 @@ body {
         background-color: none;
         padding: 10px 20px;
         border: none;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bolder;
         text-transform: uppercase;
     }
@@ -1052,7 +1052,7 @@ body {
         background-color: #203555;
         padding: 10px 20px;
         border: none;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bolder;
         text-transform: uppercase;
     }
@@ -1060,10 +1060,11 @@ body {
     /*NAVBAR Logo -----------------------------------------------------------------------------*/
 
     .logo {
-        margin-top: 0.7vw;
-        margin-left: -44vw;
-        width: 18vw;
-        height: 3.6vw;
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: -28%;
+        width: 22vw;
+        height: 4.8vw;
     }
 
     .AKAM {
