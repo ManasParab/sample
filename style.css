@@ -2,11 +2,6 @@ html {
     scroll-behavior: smooth;
   }
   
-  body {
-  
-    /* overflow: hidden; */
-  }
-  
   
   @media only screen and (max-width: 425px) {
     /* Your styles here */
@@ -48,10 +43,15 @@ html {
       background-color: #0071BC;
       height: 40px;
       display: flex;
-      justify-content: left;
-      align-items: left;
-      padding-left: 5vw;
+      justify-content: center;
+      align-items: center;
+      /* padding-left: 5vw; */
       border-bottom: #333 0.01px solid;
+    }
+
+    #UM{
+        /* display: none; */
+        text-transform: capitalize;
     }
   
     .top-nav-btns {
@@ -147,6 +147,24 @@ html {
       /* height: 3.6vw; */
     }
   
+    
+    #mar{
+        margin-top: 8px;
+        /* padding: 5vw; */
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .move-img{
+
+        display: inline;
+        margin: 0;
+        margin: 10px;
+        margin-right: 50px;
+        width: 35vw;
+      }
     #India {
       width: 70%;
       margin-left: auto;
@@ -177,13 +195,13 @@ html {
       /* float: left; */
       margin-left: auto;
       margin-right: auto;
-      width: 100%;
+      width: 98%;
     }
   
     .tax-img {
       /* margin-right: 5vw; */
       float: right;
-      width: 100%;
+      width: 96%;
     }
   
     /*About Us information --------------------------------------------------------------------*/
@@ -524,6 +542,10 @@ html {
       padding-left: 5vw;
       border-bottom: #333 0.01px solid;
     }
+
+    #UM{
+        display: none;
+    }
   
     .top-nav-btns {
       color: white;
@@ -624,6 +646,25 @@ html {
       width: 60%;
       /* height: 3.6vw; */
     }
+
+    
+    #mar{
+        margin-top: 8px;
+        /* padding: 5vw; */
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .move-img{
+
+        display: inline;
+        margin: 0;
+        margin: 10px;
+        margin-right: 50px;
+        width: 10vw;
+      }
   
     .AKAM {
       /* display: none; */
@@ -974,6 +1015,10 @@ html {
       padding-left: 5vw;
       border-bottom: #333 0.01px solid;
     }
+
+    #UM{
+        display: none;
+    }
   
     .top-nav-btns {
       color: white;
@@ -1061,6 +1106,25 @@ html {
       width: 22vw;
       height: 4.8vw;
     }
+
+    
+    #mar{
+        margin-top: 20px;
+        /* padding: 5vw; */
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .move-img{
+
+        display: inline;
+        margin: 0;
+        margin: 10px;
+        margin-right: 50px;
+        width: 10vw;
+      }
   
     .AKAM {
       padding-top: 7.5vw;
@@ -1374,6 +1438,8 @@ html {
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 1025px) {
+
+
     /* Your styles here */
   
     /* Reset the default styles */
@@ -1401,6 +1467,7 @@ html {
   
     /* TOP Navigation Bar ---------------------------------------------------------------------*/
   
+    
     #nav-stick {
       width: 100%;
       position: sticky;
@@ -1418,8 +1485,14 @@ html {
       padding-left: 5vw;
       border-bottom: #333 0.01px solid;
     }
+
+    #UM{
+        /* display: none; */
+        text-transform: capitalize;
+    }
   
     .top-nav-btns {
+        margin-left: 3.4vw;
       color: white;
       text-decoration: none;
       background-color: none;
@@ -1500,11 +1573,29 @@ html {
   
     .logo {
       margin-top: 0.7vw;
-      margin-left: -44vw;
+      margin-left: -64vw;
       width: 18vw;
       height: 3.6vw;
     }
   
+
+    #mar{
+        margin-top: 8px;
+        /* padding: 5vw; */
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .move-img{
+
+        display: inline;
+        margin: 0;
+        margin: 10px;
+        margin-right: 50px;
+        width: 10vw;
+      }
   
     .AKAM {
       padding-top: 7.5vw;
